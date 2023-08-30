@@ -2,7 +2,7 @@ import { Controller, Get, Post, Put, Delete, Param, Body, NotFoundException, Con
 import { BooksService } from './books.service';
 import { CreateBookDTO } from './dto/create-book.dto';
 import { UpdateBookDTO } from './dto/update-book.dto';
-import { Book } from '@prisma/client';
+import { Prisma, Book } from '@prisma/client';
 
 @Controller('books')
 export class BooksController {

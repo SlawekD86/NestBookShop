@@ -2,7 +2,7 @@ import { Injectable, ConflictException, NotFoundException, BadRequestException }
 import { PrismaService } from 'src/shared/services/prisma.service';
 import { CreateBookDTO } from './dto/create-book.dto';
 import { UpdateBookDTO } from './dto/update-book.dto';
-import { Book } from '@prisma/client';
+import { Prisma, Book } from '@prisma/client';
 
 @Injectable()
 export class BooksService {

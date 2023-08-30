@@ -812,7 +812,7 @@
     consola "^2.15.0"
     node-fetch "^2.6.1"
 
-"@prisma/client@^5.3.0":
+"@prisma/client@5.3.0-integration-fix-client-20243.1":
   version "5.3.0-integration-fix-client-20243.1"
   resolved "https://registry.yarnpkg.com/@prisma/client/-/client-5.3.0-integration-fix-client-20243.1.tgz#cb91ac8e98efeab8b942d6daeed501f4340838d9"
   integrity sha512-yv5fWd/2KG60IFHZCG2ft8Smu2CAaxYG/yZpbmB+LZ5pJDqdzlGN644wmvwcrMrMJiyTLwi0lWzfOEgypN8yCQ==
@@ -4006,7 +4006,7 @@ passport-jwt@^4.0.0:
     jsonwebtoken "^9.0.0"
     passport-strategy "^1.0.0"
 
-passport-local@^1.0.0:
+passport-local@^a1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/passport-local/-/passport-local-1.0.0.tgz#1fe63268c92e75606626437e3b906662c15ba6ee"
   integrity sha512-9wCE6qKznvf9mQYYbgJ3sVOHmCWoUNMVFoZzNoznmISbhnNNPhN9xfY3sLmScHMetEJeoY7CXwfhCe7argfQow==
